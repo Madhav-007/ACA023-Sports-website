@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+body {
+    background: url("https://cdn.insidesport.co/wp-content/uploads/2021/04/02173730/NEW-BANNER-Recovered.jpg") no-repeat;
+    background-size: cover;
+    
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+    color: rgb(245, 114, 7);
+    overflow-x: hidden;
+    padding-bottom: 50px;
+    margin-top: 40px;
+    font-family:"Fuggles";
+  }
+  
+  #navbar {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+  }
+  #navbar ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  #navbar ul li {
+    list-style: none;
+  }
+
+  #navbar ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(245, 134, 49);
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 1px;
+  }
+  #navbar ul li a:hover {
+    border-bottom: 3px solid rgb(14, 13, 13);
+  }
+  .intro {
+    padding: 100px 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 5rem;
+  }
+  .search_categories{
+    font-size: 13px;
+    padding: 10px 8px 10px 14px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .search_categories .select{
+    width: 120px;
+    background-position:80% center;
+  }
+  
+  .search_categories .select select{
+    background: transparent;
+    line-height: 1;
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+    width: 120%;
+    position: relative;
+    font-size: 1rem
+    } 
+
+
